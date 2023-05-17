@@ -267,8 +267,8 @@ footer{
    grid-template-columns: repeat(3, 1fr)
 }
 footer img{
-   height: 50px;
-   width: 50px;
+   height: 70px;
+   width: 80px;
 }
 .foot1 li{
    list-style: none;
@@ -277,7 +277,7 @@ footer img{
    list-style: none;
 }
 footer .logs{
-   margin-top: -50px;
+   margin-top: -20px;
 }
 
 
