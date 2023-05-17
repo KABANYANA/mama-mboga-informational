@@ -248,12 +248,12 @@ section{
    cursor: pointer;
    transform: scale(1.1);
 }
-footer{
+/* footer{
    font-size: small;
    background: rgb(31, 82, 31);
    color: whitesmoke;
    height: 20vh;
-}
+} */
 #prd3{
    text-align: center;
    margin-bottom: -10%;
