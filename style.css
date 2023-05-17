@@ -198,3 +198,90 @@ section{
    margin-bottom: -5%;
    font-size: 20px;
 }
+.services{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.services-img img{
+   width: 35vw;
+   height: 60vh;
+   border-radius: 1rem;
+}
+   .services-content p{
+       font-size: 1.1rem;
+       /* font-family: 'Source Code Pro', monospace; */
+       font-weight: 500;
+       color: var(--seconnd-bg-color);
+       margin-bottom: 2%;
+   }
+.services{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   background: var(--text-color);
+}
+.services-img img{
+   width: 35vw;
+   height: 50vh;
+   border-radius: 1rem;
+   margin-left: 6%;
+   object-fit: cover;
+}
+.teams{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-left: 100px;
+}
+.teams img{
+   width: 50%;
+   height: 25vh;
+   border-radius: 10px;
+   margin-top: 5%;
+   margin-left: 10%;
+}
+#jo{
+   object-fit: cover;
+}
+.teams p{
+   margin-left: 10%;
+}
+.teams img:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+footer{
+   font-size: small;
+   background: rgb(31, 82, 31);
+   color: whitesmoke;
+   height: 20vh;
+}
+#prd3{
+   text-align: center;
+   margin-bottom: -10%;
+}
+footer{
+   width: 100%;
+   border-top-left-radius:50px ;
+   color:white;
+   background-color: green;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr)
+}
+footer img{
+   height: 50px;
+   width: 50px;
+}
+.foot1 li{
+   list-style: none;
+}
+.foot li{
+   list-style: none;
+}
+footer .logs{
+   margin-top: -50px;
+}
+
+
+
+
+
+
