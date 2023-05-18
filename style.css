@@ -58,7 +58,7 @@ section{
 }
 .navbar a:hover,
 .navbar a.active{
-   color: var(--third-bg-color);
+   color: wheat;
 }
 #crypt{
    color: var(--bg-color);
@@ -171,7 +171,7 @@ section{
 }
 #veges{
    margin-left: 50%;
-   margin-top: -30%;
+   margin-top: -15%;
 }
 /* #fruits{
    position: absolute;
@@ -248,27 +248,28 @@ section{
    cursor: pointer;
    transform: scale(1.1);
 }
-/* footer{
+footer{
    font-size: small;
    background: rgb(31, 82, 31);
    color: whitesmoke;
    height: 20vh;
-} */
+}
 #prd3{
    text-align: center;
    margin-bottom: -10%;
+   margin-top: -8%;
 }
 footer{
    width: 100%;
-   border-top-left-radius:50px ;
    color:white;
-   background-color: green;
+   background: rgb(13, 44, 13);
    display: grid;
-   grid-template-columns: repeat(3, 1fr)
+   grid-template-columns: repeat(3, 1fr);
 }
 footer img{
    height: 70px;
    width: 80px;
+   margin-left: 50px;
 }
 .foot1 li{
    list-style: none;
@@ -278,9 +279,8 @@ footer img{
 }
 footer .logs{
    margin-top: -20px;
+   margin-left: 50px;
 }
-
-
 @media(max-width:600px){
    .header{
        position: fixed;
@@ -365,6 +365,7 @@ footer .logs{
      .product-content{
         margin-bottom: 10%;
         margin-top: 7%;
+        margin-right: 50px;
      }
      /* #veges{
         margin-left: 50%;
@@ -385,6 +386,10 @@ footer .logs{
        border-radius: 1rem;
        margin-top: 5%;
        margin-left: -1%;
+       object-fit: contain;
+   }
+   #prd3{
+      margin-top: -40%;
    }
    #fast{
        text-align: center;
@@ -398,7 +403,7 @@ footer .logs{
    }
    .teams {
        display: grid;
-       grid-template-columns: repeat(2,1fr);
+       grid-template-columns: 1fr;
        margin-left: -4%;
        margin-bottom: 20%;
    }
@@ -407,12 +412,11 @@ footer .logs{
    }
    footer{
    width: 100%;
-   border-top-left-radius:50px ;
    color:white;
-   background-color: green;
-   display: none;
+   background: rgb(13, 44, 13);
+   display: grid;
    grid-template-columns: repeat(2, 1fr);
-   margin-top: 40%;
+   margin-top: 10%;
 }
 footer img{
    display: none;
@@ -426,7 +430,7 @@ footer img{
        width: 100%;
        height: 10%;
        padding: 2 rem 5%;
-       background: rgb(25, 141, 25);
+       background: rgb(13, 44, 13);
        display: grid;
        grid-template-columns: repeat(1,1fr);
        align-items: center;
@@ -528,7 +532,7 @@ footer img{
    }
    .teams {
        display: grid;
-       grid-template-columns: repeat(2,1fr);
+       grid-template-columns: 1fr;
        margin-top: -10%;
        margin-bottom: 1%;
    }
@@ -537,18 +541,20 @@ footer img{
        height: 30vh;
        object-fit: cover;
    }
- footer{
-       background: rgb(9, 104, 9);
+   footer{
+      background: rgb(13, 44, 13);
        height: 10vh;
        font-size: 8px;
    }
    footer .logs{
-      margin-top: 10px;
+      margin-top: -3px;
+      margin-left: -6px;
    }
    .foot{
       margin-top: -20px;
    }
 }
+
 
 
 
